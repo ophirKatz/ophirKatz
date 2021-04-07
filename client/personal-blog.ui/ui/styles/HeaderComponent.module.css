@@ -1,0 +1,5 @@
+.logo {
+  float: left;
+  background-image: url("/logo-light.png");
+  margin: 16px 24px 16px 0;
+}

@@ -1,0 +1,10 @@
+.header {
+	position: fixed;
+	width: 100%;
+	height: var(--headerHeight);
+	line-height: var(--headerHeight);
+}
+
+.content {
+	margin-top: var(--headerHeight);
+}
