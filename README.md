@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @ophirKatz
+- 👀 I’m interested in software, tv, cooking & baking with some sports on the side :)
+- 🌱 I’m currently learning web development using modern tools
+- 📫 How to reach me - Via email - ophirk8396@gmail.com
