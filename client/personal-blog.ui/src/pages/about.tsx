@@ -1,13 +1,11 @@
+import * as pageTitles from '../ui/layout/page-titles';
+
 import AboutComponent from '../ui/components/AboutComponent';
 import AppLayout from '../ui/layout/AppLayout';
-import Head from 'next/head';
 
 const AboutPage = () => {
 	return (
-		<AppLayout>
-			<Head>
-				<title>Ophir Katz | About</title>
-			</Head>
+		<AppLayout title={pageTitles.About}>
 			<AboutComponent />
 		</AppLayout>
 	);

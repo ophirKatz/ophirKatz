@@ -7,4 +7,5 @@
 
 .content {
 	margin-top: var(--headerHeight);
+	padding: '0 50px';
 }

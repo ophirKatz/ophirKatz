@@ -1,3 +1,7 @@
+.logoContainer {
+  padding: '0 16px';
+}
+
 .logo {
   float: left;
   background-image: url("/logo-light.png");
