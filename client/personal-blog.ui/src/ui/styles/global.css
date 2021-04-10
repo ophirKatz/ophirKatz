@@ -29,4 +29,11 @@ img {
 :root {
   --themeDark: #001529;
   --headerHeight: 48px;
+  --borderRadius: 10px;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

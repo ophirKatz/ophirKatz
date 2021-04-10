@@ -2,7 +2,7 @@ import { Col, Menu, Row } from 'antd';
 
 import FlexFiller from '../shared-components/FlexFiller';
 import Link from 'next/link';
-import styles from '../styles/HeaderComponent.module.css';
+import styles from '../styles/Header.module.css';
 
 const HeaderComponent = () => {
 	return (

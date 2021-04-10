@@ -1,9 +1,10 @@
-import { uuid } from '../shared/types';
+import { BlogId } from './../shared/types/BlogId';
 
 export interface BlogPost {
-	id: uuid;
+	id: BlogId;
 	title: string;
 	description: string;
+	avatarUrl: string;
 	tags: string[];
 	// TODO : Add published date
 }

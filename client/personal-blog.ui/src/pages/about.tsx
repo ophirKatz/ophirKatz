@@ -1,11 +1,11 @@
-import * as pageTitles from '../ui/layout/page-titles';
+import * as PageTitles from '../ui/layout/PageTitles';
 
 import AboutComponent from '../ui/components/AboutComponent';
 import AppLayout from '../ui/layout/AppLayout';
 
 const AboutPage = () => {
 	return (
-		<AppLayout title={pageTitles.About}>
+		<AppLayout title={PageTitles.About}>
 			<AboutComponent />
 		</AppLayout>
 	);
