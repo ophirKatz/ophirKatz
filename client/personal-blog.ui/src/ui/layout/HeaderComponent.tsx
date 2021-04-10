@@ -9,7 +9,7 @@ const HeaderComponent = () => {
 		<Row wrap={false}>
 			<Col flex="none">
 				<div className={styles.logoContainer}>
-					<div className={styles.logo} />
+					<img src="/logo-light.png" className={styles.logo} />
 				</div>
 			</Col>
 			<FlexFiller />
