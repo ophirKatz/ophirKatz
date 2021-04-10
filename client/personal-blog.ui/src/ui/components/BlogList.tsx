@@ -7,7 +7,7 @@ declare type PropTypes = {
 	blogPosts: BlogPost[]
 };
 
-const BlogListComponent = ({
+const BlogList = ({
 	loading,
 	blogPosts
 }: PropTypes) => {
@@ -22,4 +22,4 @@ const BlogListComponent = ({
 	)
 };
 
-export default BlogListComponent;
+export default BlogList;

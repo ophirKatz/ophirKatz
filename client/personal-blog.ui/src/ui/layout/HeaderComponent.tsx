@@ -1,7 +1,7 @@
-import { Col, Menu, Row } from 'antd';
+import { Col, Row } from 'antd';
 
 import FlexFiller from '../shared-components/FlexFiller';
-import Link from 'next/link';
+import Nav from './Nav';
 import styles from '../styles/Header.module.css';
 
 const HeaderComponent = () => {
@@ -14,11 +14,7 @@ const HeaderComponent = () => {
 			</Col>
 			<FlexFiller />
 			<Col>
-				<Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
-					<Menu.Item key="1"><Link href="/">Home</Link></Menu.Item>
-					<Menu.Item key="2"><Link href="/about">About</Link></Menu.Item>
-					<Menu.Item key="3"><Link href="/blog">Blog</Link></Menu.Item>
-				</Menu>
+				<Nav />
 			</Col>
 		</Row>
 	);
