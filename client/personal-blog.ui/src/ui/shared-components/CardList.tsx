@@ -1,6 +1,6 @@
 const CardList = ({ children }) => {
 	return (
-		<div className="cardList">
+		<div className="centerColumn">
 			{children}
 		</div>
 	);

@@ -1,10 +1,8 @@
-import { BlogId } from './../shared/types/BlogId';
-
 export interface BlogPost {
-	id: BlogId;
+	id: string;
 	title: string;
 	description: string;
 	avatarUrl: string;
 	tags: string[];
-	// TODO : Add published date
+	// TODO : Add published date, slug for url
 }

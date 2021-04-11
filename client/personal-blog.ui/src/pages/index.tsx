@@ -4,7 +4,7 @@ import AppLayout from '../ui/layout/AppLayout';
 import Head from 'next/head';
 import HomeComponent from '../ui/components/HomeComponent';
 
-const HomePage = () => {
+const HomePage = ({ }) => {
   return (
     <AppLayout title={PageTitles.Home}>
       <Head>
