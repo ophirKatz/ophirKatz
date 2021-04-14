@@ -37,3 +37,13 @@ img {
   flex-direction: column;
   align-items: center;
 }
+
+.centerRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content {
+  margin-top: 20px;
+}
