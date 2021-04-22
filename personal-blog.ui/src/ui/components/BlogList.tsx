@@ -1,6 +1,6 @@
 import { Button, Col, Row, Tooltip } from 'antd';
 
-import { BlogPost } from "../../model/BlogPost";
+import { BlogPost } from '../../../../personal-blog.shared/model/BlogPost';
 import BlogPostCard from './BlogPostCard';
 import CardList from '../shared-components/CardList';
 import FlexFiller from '../shared-components/FlexFiller';

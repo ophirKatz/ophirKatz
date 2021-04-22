@@ -1,6 +1,6 @@
 import { Avatar, Card, Checkbox } from 'antd';
 
-import { BlogPost } from '../../model/BlogPost';
+import { BlogPost } from '../../../../personal-blog.shared/model/BlogPost';
 import styles from '../styles/BlogPostCard.module.css';
 import useBlogRouter from '../../shared/hooks/BlogRouter';
 

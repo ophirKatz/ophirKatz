@@ -2,7 +2,7 @@ import * as PageTitles from '../../ui/layout/PageTitles';
 
 import AppLayout from '../../ui/layout/AppLayout';
 import BlogList from '../../ui/components/BlogList';
-import { BlogPost } from '../../model/BlogPost';
+import { BlogPost } from '../../../../personal-blog.shared/model/BlogPost';
 import { GetStaticPropsResult } from 'next';
 import { useBlogService } from '../../services/BlogService';
 

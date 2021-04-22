@@ -1,7 +1,7 @@
 import * as _ from 'lodash';
 
 import { Action } from './Action';
-import { BlogPost } from '../model/BlogPost';
+import { BlogPost } from '../../../personal-blog.shared/model/BlogPost';
 import { useReducer } from 'react'
 
 export enum BlogListAction {
@@ -29,6 +29,7 @@ function reducer(state: BlogListState, action: Action<BlogListAction>) {
 	}
 }
 
+// TODO : Rename
 type BlogListReducer = {
 	blogList: BlogListState,
 	addBlogPost: (blogPost: BlogPost) => void,
