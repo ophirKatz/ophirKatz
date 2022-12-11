@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @ophirKatz
-- 👀 I’m interested in software, tv, cooking & baking with some sports on the side :)
-- 🌱 I’m currently learning web development using modern tools
+- 👀 I’m mainly interested in software architecture and design
+- 🌱 I’m currently working as a full-stack developer
 - 📫 How to reach me - Via email - ophirk8396@gmail.com
