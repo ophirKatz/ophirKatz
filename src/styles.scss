@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --black1: #000000;
+    --black2: #0C1821;
+    --black3: #090C08;
+    --color3: #6C809A;
+
+    // Color Group 1
+    --color-group-1-1: #9E8FB2;
+    --color-group-1-2: #A7ACD9;
+    --color-group-1-3: #93C6D6;
+
+    // Color Group 2
+    --color-group-2-1: #93C6D6;
+    --color-group-2-2: #82AEB1;
+    --color-group-2-3: #668586;
+
+    // Color Group 3
+    --color-group-3-1: #344966;
+    --color-group-3-2: #6C809A;
+    --color-group-3-3: #B4CDED;
+
+    // Color Group 4
+    --color-group-4-1: #474056;
+    --color-group-4-2: #757083;
+    --color-group-4-3: #8A95A5;
+}
+
+body {
+    margin: 0px;
+    min-height: 100svh;
+}
+
+.gradient1 {
+    background: linear-gradient(
+          60deg,
+          var(--color-group-1-1),
+          var(--color-group-1-2),
+          var(--color-group-1-3),
+        );
+}
+
+.gradient2 {
+    background: linear-gradient(
+          45deg,
+          var(--color-group-2-1),
+          var(--color-group-2-2),
+          var(--color-group-2-3),
+        );
+}
+
+.gradient3 {
+    background: linear-gradient(
+          60deg,
+          var(--color-group-3-1),
+          var(--color-group-3-2),
+          var(--color-group-3-3),
+        );
+}
+
+.gradient4 {
+    background: linear-gradient(
+          210deg,
+          var(--color-group-4-1),
+          var(--color-group-4-2),
+          var(--color-group-4-3),
+        );
+}
+
+.circle {
+    border: 2px solid var(--black2);
+    border-radius: 50%;
+}
